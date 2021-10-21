@@ -6,7 +6,7 @@
 /*   By: shalfbea <shalfbea@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 18:11:30 by shalfbea          #+#    #+#             */
-/*   Updated: 2021/10/18 19:54:10 by shalfbea         ###   ########.fr       */
+/*   Updated: 2021/10/21 20:15:20 by shalfbea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
 #include <libgen.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 50
+#  define BUFFER_SIZE 42
 # endif
 
 typedef struct s_list
@@ -34,6 +34,8 @@ typedef struct s_list
 }	t_list;
 char	*get_next_line(int fd);
 
-t_list	*ft_lstnew(char *content);
-char	*ft_lstclear(t_list **lst);
+//t_list	*ft_lstnew(char content[BUFFER_SIZE]);
+//char	*ft_lstclear(t_list **lst);
+void	buffer_storage(int fd, char buffer[BUFFER_SIZE], int *end_pos, int *bytes_read);
+char	*free_res(char **res);
 #endif
