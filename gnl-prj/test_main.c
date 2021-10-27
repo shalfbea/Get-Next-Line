@@ -22,14 +22,14 @@ int	main(void)
 	*/
 	//file = open("gnlTester/files/41_no_nl", O_RDONLY);
 	//file = open("file4read.txt", O_RDONLY);
-	file = open("gnlTester/files/43_with_nl", O_RDONLY);
+	file = open("gnlTester/files/41_no_nl", O_RDONLY);
 	//file = open("gnlTester/files/nl", O_RDONLY);
 	//scanf("%c", &input);
 	size_t i = 0;
 	while (i++ < 10)
 	{
 		s = get_next_line(file);
-		printf("%s", s);
+		printf("%s;", s);
 		free(s);
 		//scanf("%c", &input);
 	}

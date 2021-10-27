@@ -6,7 +6,7 @@
 /*   By: shalfbea <shalfbea@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 18:11:30 by shalfbea          #+#    #+#             */
-/*   Updated: 2021/10/21 20:15:20 by shalfbea         ###   ########.fr       */
+/*   Updated: 2021/10/27 20:59:52 by shalfbea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,10 @@
 #include <errno.h>
 #include <string.h>
 #include <libgen.h>
+#include <limits.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
+#  define BUFFER_SIZE 1
 # endif
 
 typedef struct s_list
