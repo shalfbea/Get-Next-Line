@@ -38,3 +38,4 @@ The full task can be found here: [gnl_subject](https://github.com/shalfbea/Get-N
 - Use only a single static variable
 
 ### Evaluation result:
+<img width="2003" alt="Screen Shot 2022-09-14 at 18 06 29" src="https://user-images.githubusercontent.com/92727363/190192498-ea1605a9-8966-4a56-ac30-a416195737f3.png">
